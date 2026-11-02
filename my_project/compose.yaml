@@ -1,0 +1,21 @@
+
+services:
+  roha-mqtt-point:
+    image: infinityshiv/roha-mqtt-point
+    container_name: roha-mqtt-point
+
+    build:
+      context: .
+      args:
+        APP_NAME: roha-mqtt-point
+        RELEASE_VERSION: ${RELEASE_VERSION:-v0.0.1}
+        BUILD_TIME: ${BUILD_TIME:-unknown}
+
+    env_file:
+      - .env
+
+    restart: unless-stopped
+
+    # If you log to file inside container
+    volumes:
+      - ./logs:/app/log

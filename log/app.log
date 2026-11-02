@@ -1,0 +1,52 @@
+2026-02-26 12:05:47,371 | INFO | __main__ | ==========================================
+2026-02-26 12:05:47,371 | INFO | __main__ | Starting MQTT Service
+2026-02-26 12:05:47,371 | INFO | __main__ | Version     : v0.0.1
+2026-02-26 12:05:47,371 | INFO | __main__ | Build Time  : unknown
+2026-02-26 12:05:47,371 | INFO | __main__ | Broker      : railwaysignaling.com:1883
+2026-02-26 12:05:47,371 | INFO | __main__ | DL Topic    : dl_ROHA
+2026-02-26 12:05:47,371 | INFO | __main__ | Output Topic: sensor_ROHA
+2026-02-26 12:05:47,371 | INFO | __main__ | ==========================================
+2026-02-26 12:05:47,371 | INFO | __main__ | Connecting to broker railwaysignaling.com:1883
+2026-02-26 12:05:47,372 | INFO | __main__ | Connecting to broker railwaysignaling.com:1883
+2026-02-26 12:05:47,372 | INFO | __main__ | MQTT service started successfully
+2026-02-26 12:05:47,512 | INFO | __main__ | Connected → Subscribing to sensor_ROHA
+2026-02-26 12:05:47,530 | INFO | __main__ | Connected → Subscribing to dl_ROHA
+2026-02-26 12:05:58,118 | INFO | __main__ | Status update | name=106 WCR value=1
+2026-02-26 12:05:58,118 | INFO | __main__ | Cache updated | key=106 value=1
+2026-02-26 12:05:58,214 | INFO | __main__ | Status update | name=106 NWCR value=1
+2026-02-26 12:05:58,214 | WARNING | __main__ | Not WCR, ignoring| name=106 NWCR value=1
+2026-02-26 12:05:58,466 | INFO | __main__ | Status update | name=106 NWCPR value=1
+2026-02-26 12:05:58,466 | WARNING | __main__ | Not WCR, ignoring| name=106 NWCPR value=1
+2026-02-26 12:05:58,466 | INFO | __main__ | Status update | name=106 WCPR value=1
+2026-02-26 12:05:58,466 | WARNING | __main__ | Not WCR, ignoring| name=106 WCPR value=1
+2026-02-26 12:05:58,545 | INFO | __main__ | Status update | name=106 RWKR value=0
+2026-02-26 12:05:58,545 | WARNING | __main__ | Not WCR, ignoring| name=106 RWKR value=0
+2026-02-26 12:06:01,878 | INFO | __main__ | Status update | name=106 NWKR value=1
+2026-02-26 12:06:01,879 | WARNING | __main__ | Not WCR, ignoring| name=106 NWKR value=1
+2026-02-26 12:06:02,301 | INFO | __main__ | Published replaced payload | name=106
+2026-02-26 12:06:03,427 | INFO | __main__ | Status update | name=106 NWCR value=0
+2026-02-26 12:06:03,427 | WARNING | __main__ | Not WCR, ignoring| name=106 NWCR value=0
+2026-02-26 12:06:03,526 | INFO | __main__ | Status update | name=106 WCR value=0
+2026-02-26 12:06:03,526 | INFO | __main__ | Cache updated | key=106 value=0
+2026-02-26 12:06:03,926 | INFO | __main__ | Status update | name=106 NWCPR value=0
+2026-02-26 12:06:03,927 | WARNING | __main__ | Not WCR, ignoring| name=106 NWCPR value=0
+2026-02-26 12:06:04,636 | INFO | __main__ | Status update | name=106 WCPR value=0
+2026-02-26 12:06:04,636 | WARNING | __main__ | Not WCR, ignoring| name=106 WCPR value=0
+2026-02-26 12:08:03,652 | INFO | __main__ | Status update | name=107 NWCR value=1
+2026-02-26 12:08:03,652 | WARNING | __main__ | Not WCR, ignoring| name=107 NWCR value=1
+2026-02-26 12:08:04,244 | INFO | __main__ | Status update | name=107 WCR value=1
+2026-02-26 12:08:04,244 | INFO | __main__ | Cache updated | key=107 value=1
+2026-02-26 12:08:04,244 | INFO | __main__ | Status update | name=107 NWCPR value=1
+2026-02-26 12:08:04,244 | WARNING | __main__ | Not WCR, ignoring| name=107 NWCPR value=1
+2026-02-26 12:08:04,244 | INFO | __main__ | Status update | name=107 RWKR value=0
+2026-02-26 12:08:04,244 | WARNING | __main__ | Not WCR, ignoring| name=107 RWKR value=0
+2026-02-26 12:08:07,239 | INFO | __main__ | Status update | name=107 NWKR value=1
+2026-02-26 12:08:07,239 | WARNING | __main__ | Not WCR, ignoring| name=107 NWKR value=1
+2026-02-26 12:08:07,598 | INFO | __main__ | Published replaced payload | name=107
+2026-02-26 12:08:08,992 | INFO | __main__ | Status update | name=107 NWCR value=0
+2026-02-26 12:08:08,992 | WARNING | __main__ | Not WCR, ignoring| name=107 NWCR value=0
+2026-02-26 12:08:09,260 | INFO | __main__ | Status update | name=107 WCR value=0
+2026-02-26 12:08:09,260 | INFO | __main__ | Cache updated | key=107 value=0
+2026-02-26 12:08:09,310 | INFO | __main__ | Shutdown signal received...
+2026-02-26 12:08:09,381 | INFO | __main__ | Status update | name=107 NWCPR value=0
+2026-02-26 12:08:09,381 | WARNING | __main__ | Not WCR, ignoring| name=107 NWCPR value=0
